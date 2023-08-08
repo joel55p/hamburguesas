@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hamburguesas</title>
+</head>
+<body>
+    <p>Escoge tu hamburguesa:</p>
+    <label for="">Tipo:</label>
+    <select name="tipo" id="tipo"  >
+        <option value="Sencilla">Sencilla</option>
+        <option value="Doble">Doble</option>
+        <option value="Triple">Triple</option>
+    </select>
+    <input type="number" id="cantidad" placeholder="Cantidad">
+    <label for="">Tarjeta</label>
+    <select name="tarjeta" id="tarjeta">
+        <option value="Si">Si</option>
+        <option value="No">No</option>
+    </select>
+
+    <button>Calcular</button>
+
+    <p id="resultado">El resultado es:</p>
+    <script src="main.js"></script>
+</body>
+</html>

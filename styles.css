@@ -1,0 +1,156 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #ffdd00, #ff4500);
+    color: #333;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4500;
+  }
+  
+  .slogan {
+    font-size: 18px;
+    color: #ffdd00;
+  }
+  
+  /* Menú de navegación */
+  nav {
+    background-color: #ff4500;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .nav-link {
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Sección de hamburguesas destacadas */
+  .featured-section {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4d/Cheeseburger.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .featured-heading {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .featured-description {
+    font-size: 18px;
+    color: #ffdd00;
+    margin-bottom: 40px;
+  }
+  
+  /* Sección de promociones */
+  .promo-section {
+    background-color: #ffdd00;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .promo-heading {
+    font-size: 28px;
+    color: #ff4500;
+    margin-bottom: 20px;
+  }
+  
+  .promo-description {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 768px) {
+    .nav-link {
+      margin: 0 10px;
+      font-size: 14px;
+    }
+  
+    .featured-heading {
+      font-size: 28px;
+    }
+  
+    .featured-description {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+  
+    .promo-heading {
+      font-size: 24px;
+    }
+  
+    .promo-description {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+
+  p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  select, input {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff6100;
+  }
+  
+  /* Resultado */
+  #resultado {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
